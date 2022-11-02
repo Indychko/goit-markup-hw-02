@@ -50,7 +50,7 @@ list-style: none;
 
 .logo {
 font-family: Raleway;
-font-weight: 700;
+
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -59,21 +59,32 @@ font-weight: 700;
 list-style: none;
 }
 .header .header-contact-link {
-color: var(--color-feature);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--color-feature);
 
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus{
-color: var(--color-accent);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+   color: var(--color-accent);
+   
+    
+   
 }
 
 .hero-btn{
+    font-family: 'Roboto';
+    font-style: normal;
     padding: 10px 28px;
     border: none;
     border-radius: 4px;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     display: flex;
@@ -101,7 +112,7 @@ color: var(--color-accent);
 
 .benefits-header {
 
-        font-weight: 700;
+        
         font-size: 14px;
         line-height: 1.1428;
         letter-spacing: 0.03em;
@@ -110,7 +121,7 @@ color: var(--color-accent);
 }
 
 .benefits-text {
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -119,7 +130,7 @@ color: var(--color-accent);
 }
 .section-header {
    
-        font-weight: 700;
+        
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -139,7 +150,7 @@ color: var(--color-accent);
     
 }
 .team-position {
-        font-weight: 400;
+        
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
@@ -158,7 +169,7 @@ color: var(--color-accent);
     color: var(--color-white);
 }
 .address {
-    font-weight: 400;
+    
     font-style: normal;
         font-size: 14px;
         line-height: 1.71;
@@ -169,6 +180,11 @@ color: var(--color-accent);
 
 .filters-btn:hover,
 .filter-btn:focus {
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
     background-color: var(--color-accent);
     color: var(--color-white);
     border: none;
