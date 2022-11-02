@@ -135,6 +135,7 @@ color: var(--color-accent);
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
+        text-align: center;
     
 }
 .team-position {
@@ -142,6 +143,7 @@ color: var(--color-accent);
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
+        text-align: center;
         color: var(--color-feature);
 }
 
@@ -164,11 +166,11 @@ color: var(--color-accent);
         color: var(--color-white);
 }
 
-.filters-btn 
-.header-nav-link:hover,
-.header-nav-link:focus,
-{
-    color: var(--color-main-dark);
-    background-color: var(--color-light-gray);
-   
+
+.filters-btn:hover,
+.filter-btn:focus {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border: none;
 }
+   
