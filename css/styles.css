@@ -11,8 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-main-dark);
-    
-}  
+    }  
 
 button {
     cursor: pointer;
@@ -21,7 +20,6 @@ button {
             text-align: center;
             letter-spacing: 0.03em;
 }
-
 
 
  .accent{
@@ -37,16 +35,11 @@ button {
 .header-nav-link{
 text-decoration: none;
 font-weight: 500;
-    
-    
-    
     }
-
 
 
 .list{
 list-style: none;
-
 }
 
 
@@ -72,11 +65,19 @@ list-style: none;
 .header-nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus{
-   color: var(--color-accent);
-   
-    
+        
+    color: var(--color-accent);
    
 }
+
+.header-contact-link {
+    
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+}
+
 
 .hero-btn{
     font-family: 'Roboto';
@@ -112,7 +113,6 @@ list-style: none;
 
 .benefits-header {
 
-        
         font-size: 14px;
         line-height: 1.1428;
         letter-spacing: 0.03em;
@@ -130,8 +130,7 @@ list-style: none;
 }
 .section-header {
    
-        
-        font-size: 36px;
+       font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
@@ -162,7 +161,6 @@ list-style: none;
     background-color: var(--color-dark-black);
     color: rgba(255, 255, 255, 0.6);
     
-    
 }
 
 .footer-logo {
@@ -170,7 +168,7 @@ list-style: none;
 }
 .address {
     
-    font-style: normal;
+        font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -179,12 +177,18 @@ list-style: none;
 
 
 .filters-btn:hover,
-.filter-btn:focus {
-      
+.filter-btn:focus
+ {
     background-color: var(--color-accent);
     color: var(--color-white);
+
+}
+
+.filters-btn {
+    font-family: inherit;
     border: none;
 }
+
 
 .options-name {
        font-weight: 700;
@@ -195,9 +199,9 @@ list-style: none;
 }
 
 .options-addition {
-   font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: var(--color-feature);
 }
    
